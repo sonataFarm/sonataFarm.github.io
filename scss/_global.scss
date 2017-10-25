@@ -83,6 +83,13 @@ section.success {
   color: white;
   background: $theme-success;
 }
+
+#about .col-lg-4 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
 @media(max-width:767px) {
   section {
     padding: 75px 0;
